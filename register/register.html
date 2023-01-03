@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+     <!-- favicon -->
+     <link rel="icon" type="image/x-icon" href="./asset/favicon-logo.png">
+     <link rel="stylesheet" href="style-reg.css">
+</head>
+<body>
+    <img src="./asset/background 16.57.54.png" width="100%" alt="">
+    <div class="container">
+        <div class="heading">
+            <h1>Registration</h1>
+        </div>
+        <section id="form-section">
+            <form action="">
+                <div id="group-info">
+                    <h1>Group Information</h1>
+                    <div class="input-group">
+                        <div class="name">
+                            <div class="input">
+                            <label for="group-name">Group Name</label>
+                            <input type="text" name="group-name" id="group-name" placeholder="Your group name" required>
+                            </div>
+                        </div>
+                        <div class="password">
+                            <div class="input">
+                                <label for="pass">Password</label>
+                                <input type="password" name="pass" id="pass" placeholder="Your password" required>
+                            </div>
+                        </div>
+                        <div class="confirm-password">
+                            <div class="input">
+                                <label for="confirm-pass">Confirm Password</label>
+                                <input type="password" name="confirm-pass" id="confirm-pass" placeholder="Confirm your password" required>
+                            </div>
+                        </div>
+                        <div class="binusian">
+                            <input type="radio" name="binus" id="binus" required>Binusian
+                            <input type="radio" name="binus" id="binus" required>Non-Binusian
+                        </div>
+                    </div>
+                </div>
+
+                <div id="leader-info">
+                    <h1>Leader Information</h1>
+                    <div class="input-group">
+                        <div class="f-name">
+                            <div class="input">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" name="full-name" id="full-name" placeholder="Your full name" required >
+                            </div>
+                        </div>
+
+                        <div class="birth-place">
+                            <div class="input">
+                                <label for="birth">Birth Place</label>
+                                <input type="text" name="birth" id="birth" placeholder="Your birth place" required>
+                            </div>
+                        </div>
+
+                        <div class="mail">
+                            <div class="input">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Your e-mail address" required>
+                            </div>
+                        </div>
+
+                        <div class="birth-date">
+                            <div class="input">
+                                <label for="b-date">Birth Date</label>
+                                <input type="date" name="b-date" id="b-date" placeholder="Your birth date" required>
+                            </div>
+                        </div>
+
+                        <div class="wa-num">
+                            <div class="input">
+                                <label for="num">Whatapp Number</label>
+                                <input type="tel" name="num" id="num" placeholder="ex: 081378915673" required pattern="[0-9]{12}">
+                            </div>
+                        </div>
+
+                        <div class="cv-file">
+                            <div class="input">
+                                <label for="cv">Upload CV <span> ( pdf, jpg, jpeg and png )</span></label>
+                                <input type="file" name="cv" id="cv" required accept="application/pdf, image/jpg, image/jpeg. image/png">
+                            </div>
+                        </div>
+
+                        <div class="line-id">
+                            <div class="input">
+                                <label for="line">LINE ID</label>
+                                <input type="text" name="line" id="line" placeholder="Your LINE ID" required>
+                            </div>
+                        </div>
+
+                        <div class="flazz-file">
+                            <div class="input">
+                                <label for="flazz">Upload Flazz Card (*Binusian only) <span> ( pdf, jpg, jpeg and png )</span></label>
+                                <input type="file" name="flazz" id="flazz" required accept="application/pdf, image/jpg, image/jpeg. image/png">
+                            </div>
+                        </div>
+
+                        <div class="git-id">
+                            <div class="input">
+                                <label for="git">Github/Gitlab ID</label>
+                                <input type="text" name="git" id="git" placeholder="Your Github/Gitlab ID" required>
+                            </div>
+                        </div>
+                        
+                        <div class="id-file">
+                            <div class="input">
+                                <label for="id">Upload ID card (*Non-Binusian only) <span> ( pdf, jpg, jpeg and png )</span></label>
+                                <input type="file" name="id" id="id" required accept="application/pdf, image/jpg, image/jpeg. image/png">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit">Confirm and Submit</button>
+                </div>
+                
+            </form>
+        </section>
+        
+    </div>
+    
+</body>
+</html>
