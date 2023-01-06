@@ -124,6 +124,81 @@ img{
     padding-left: 3vh;
 }
 
+/* password validation */
+#pswd_info {
+    position:absolute;
+    margin-top: 1vh;
+    margin-right:15vh;
+    width:250px;
+    padding:15px;
+    background:#fefefe;
+    font-size:.875em;
+    border-radius:5px;
+    box-shadow:0 1px 3px #ccc;
+    border:1px solid #ddd;
+}
+#pswd_info::before {
+    content: "\25B2";
+    position:absolute;
+    top:-12px;
+    left:45%;
+    font-size:14px;
+    line-height:14px;
+    color:#ddd;
+    text-shadow:none;
+    display:block;
+}
+
+#pswd_info {
+    display:none;
+}
+
+#pswd_confirm {
+    position:absolute;
+    margin-top: 1vh;
+    margin-left:7vh;
+    width:250px;
+    padding:15px;
+    background:#fefefe;
+    font-size:.875em;
+    border-radius:5px;
+    box-shadow:0 1px 3px #ccc;
+    border:1px solid #ddd;
+}
+
+#pswd_confirm::before {
+    content: "\25B2";
+    position:absolute;
+    top:-12px;
+    left:45%;
+    font-size:14px;
+    line-height:14px;
+    color:#ddd;
+    text-shadow:none;
+    display:block;
+}
+
+#pswd_confirm {
+    display:none;
+}
+
+
+.invalid {
+    padding-left:22px;
+    line-height:24px;
+    color:#ec3f41;
+}
+.valid {
+    padding-left:22px;
+    line-height:24px;
+    color:#3a7d34;
+}
+
+#message{
+    margin-top: 5vh;
+    margin-left: 4vh;
+}
+
 #group-info .input-group .binusian{
     accent-color: #463C44;
     color: #FFB26C;
